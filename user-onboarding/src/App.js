@@ -126,7 +126,7 @@ console.log(users)
 },[users])
   return (
     <StyledHeader className="App">
-      <header className="App-header"><h1>Team Onboarding Sign-Up Form</h1></header>
+      <header className="App-header"><h1>🧙Team Onboarding Sign-Up Form🧙</h1></header>
       <Form
       values={formValues}
       inputChange={inputChange}
