@@ -49,17 +49,7 @@ export default function Form(props) {
 
     return(
         <StyledForm className='form container' onSubmit={onSumbit}>
-            <div className='form-group submit'>
-                <h2>Sign-Up!</h2>
-                <button disabled={disabled}>Submit</button>
-
-                <div className='errors'>
-                    <div>{errors.name}</div>
-                    <div>{errors.email}</div>
-                    <div>{errors.password}</div>
-                    <div>{errors.role}</div>
-                </div>
-            </div>
+         
 
             <div className='form-group inputs'>
                 <h4>General Information</h4>
@@ -136,6 +126,18 @@ export default function Form(props) {
                     onChange={onCheckboxChange}
                     />
                 </label>
+            </div>
+
+            <div className='form-group submit'>
+                <h2>Sign-Up!</h2>
+                <button disabled={disabled}>Submit</button>
+
+                <div className='errors'>
+                    <div>{errors.name}</div>
+                    <div>{errors.email}</div>
+                    <div>{errors.password}</div>
+                    <div>{errors.role}</div>
+                </div>
             </div>
         </StyledForm>
     )
