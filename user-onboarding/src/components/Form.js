@@ -50,7 +50,7 @@ export default function Form(props) {
     return(
         <StyledForm className='form container' onSubmit={onSumbit}>
             <div className='form-group submit'>
-                <h2>Add a User</h2>
+                <h2>Sign-Up!</h2>
                 <button disabled={disabled}>Submit</button>
 
                 <div className='errors'>
